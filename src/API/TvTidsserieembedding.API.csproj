@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TvTidsserieembedding.API</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Application\TvTidsserieembedding.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\TvTidsserieembedding.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
